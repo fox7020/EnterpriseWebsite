@@ -1,13 +1,13 @@
-1. ¦bstyle.css ¼W¥[
+ï»¿1. åœ¨style.css å¢åŠ 
 #section{
 	visibility: hidden;
 }
 
-2.¦b id="section" ªº¨º¶ôdiv¤¤ 
-  ±N <div class="contact-caption clearfix"> ³o¦æ¼W¥[id
-  ÅÜ¦¨ <div class="contact-caption clearfix" id="sectionBlock">
+2.åœ¨ id="section" çš„é‚£å¡Šdivä¸­ 
+  å°‡ <div class="contact-caption clearfix"> é€™è¡Œå¢åŠ id
+  è®Šæˆ <div class="contact-caption clearfix" id="sectionBlock">
 
-3.¦bcostom.js¤¤ ¼W¥[
+3.åœ¨costom.jsä¸­ å¢åŠ 
       $("#sectionBlock").on("click", function  (argument) {
           if (isShow) {
             event.stopPropagation();
@@ -16,9 +16,9 @@
            }         
       });
 
-4.±N
+4.å°‡
 document.getElementById('section').style.visibility = 'visible'; => $('#section').css("visibility","visible");
 document.getElementById('section').style.visibility = 'hidden'; =>  $('#section').css("visibility","hidden");
 
 
-5.google ¼W¥[¾ÌÃÒ
+5.google å¢åŠ æ†‘è­‰
