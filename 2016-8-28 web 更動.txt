@@ -1,0 +1,24 @@
+1. 在style.css 增加
+#section{
+	visibility: hidden;
+}
+
+2.在 id="section" 的那塊div中 
+  將 <div class="contact-caption clearfix"> 這行增加id
+  變成 <div class="contact-caption clearfix" id="sectionBlock">
+
+3.在costom.js中 增加
+      $("#sectionBlock").on("click", function  (argument) {
+          if (isShow) {
+            event.stopPropagation();
+            document.getElementById('section').style.visibility = 'visible';
+            isShow = true;
+           }         
+      });
+
+4.將
+document.getElementById('section').style.visibility = 'visible'; => $('#section').css("visibility","visible");
+document.getElementById('section').style.visibility = 'hidden'; =>  $('#section').css("visibility","hidden");
+
+
+5.google 增加憑證
