@@ -23,8 +23,6 @@
 </head>
 <body>
 	
-	<!-- ====================================================
-	header section -->
 	<header class="top-header">
 		<div class="container">
 			<div class="row">
@@ -50,11 +48,11 @@
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					      
 					      <ul class="nav navbar-nav navbar-right">
-					        <li><a class="menu active" href="#home" >Home</a></li>
+					        <li><a class="menu" href="#home" >首頁</a></li>
 					        <li><a class="menu" href="news.jsp">最新消息</a></li>
-					         <li><a class="menu" href="#team">產品介紹</a></li>
-					         <li><a class="menu" href="#service">線上訂購</a></li>
-					        <li><a class="menu" href="#about">關於我們</a></li>
+					        <li><a class="menu" href="#section">關於我們 </a></li>
+					        <li><a class="menu" href="#menu">產品介紹</a></li>
+					        <li><a class="menu" href="#order">線上訂購</a></li>
 					      </ul>
 					    </div><!-- /navbar-collapse -->
 					  </div><!-- / .container-fluid -->
