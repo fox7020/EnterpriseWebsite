@@ -1,9 +1,9 @@
 package model;
 
-public class News {
+public class NewsService {
 	
-	private static String title = "ºñ®qªù¥«§K¶O´£¨Ñ°ê­x§Ì¥S²M¼ä¶¤­û¶¼®Æ";
-	private static String context = "¥§§B¯S»ä­·­«³ÐªF¥xÆW¡A­º·í¨ä½Äªººñ®q¬O­«¨a°Ï¤§¤@¡Aº¡¥Ø½H²­¡A¦Ê¼o«ÝÁ|¡C¨a«á­««Ø´_­ì¤u§@¦hÁ«°ê­x§Ì¥S¡B²M¼ä¶¤­ûªº¥þ¤O¤ä´©¡A²M¤ßºÖ¥þºñ®qªù¥«Ã¹¬ü½¬©±ªø¥D°Ê´£¨Ñ§K¶O¦B²D¤â·n¯ù¶¼¡A·PÁÂ¤j¹ÙªºµL¨p©^Äm¡A¥R¤ÀÅé²{¦u±æ¬Û§U¡B­x¥Á¤@®aªº¥xÆW¤H±¡¨ý¡C¥¼¨Ó´X¤Ñºñ®qªù¥«¤´±N«ùÄòÅTÀ³Á`¤½¥qªº¸¹¥l¡A§K¶O´£¨Ñ¶¼®Æ¡A¬°§ë¤J­««Ø¤u§@ªº°ê­x§Ì¥S¡B²M¼ä¶¤­û¸Ñ´÷¡B¥´®ð¡C­·«BµL±¡¡A¤H¶¡¦³·R¡I°ê­x§Ì¥S¡B²M¼ä¶¤­û¡A¯u¬O¦n¼Ë¨àªº¡A·PÁÂ§A­Ì¡]¥ß¥¿¡ã·qÂ§¡^¡Iºñ®q¥[ªo¡I";
+	private static String title = "ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½Oï¿½ï¿½ï¿½Ñ°ï¿½xï¿½Ì¥Sï¿½Mï¿½ä¶¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
+	private static String context = "ï¿½ï¿½ï¿½Bï¿½Sï¿½ä­·ï¿½ï¿½ï¿½ÐªFï¿½xï¿½Wï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Äªï¿½ï¿½ï¿½qï¿½Oï¿½ï¿½ï¿½aï¿½Ï¤ï¿½ï¿½@ï¿½Aï¿½ï¿½ï¿½Ø½Hï¿½ï¿½ï¿½Aï¿½Ê¼oï¿½ï¿½ï¿½|ï¿½Cï¿½aï¿½á­«ï¿½Ø´_ï¿½ï¿½uï¿½@ï¿½hï¿½ï¿½ï¿½ï¿½xï¿½Ì¥Sï¿½Bï¿½Mï¿½ä¶¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ä´©ï¿½Aï¿½Mï¿½ßºÖ¥ï¿½ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½Ã¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Dï¿½Ê´ï¿½ï¿½Ñ§Kï¿½Oï¿½Bï¿½Dï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Pï¿½Â¤jï¿½Ùªï¿½ï¿½Lï¿½pï¿½^ï¿½mï¿½Aï¿½Rï¿½ï¿½ï¿½ï¿½{ï¿½uï¿½ï¿½Û§Uï¿½Bï¿½xï¿½ï¿½ï¿½@ï¿½aï¿½ï¿½ï¿½xï¿½Wï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ó´Xï¿½Ñºï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½lï¿½Aï¿½Kï¿½Oï¿½ï¿½ï¿½Ñ¶ï¿½ï¿½Æ¡Aï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ø¤uï¿½@ï¿½ï¿½ï¿½ï¿½xï¿½Ì¥Sï¿½Bï¿½Mï¿½ä¶¤ï¿½ï¿½ï¿½Ñ´ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Bï¿½Lï¿½ï¿½ï¿½Aï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½Iï¿½ï¿½xï¿½Ì¥Sï¿½Bï¿½Mï¿½ä¶¤ï¿½ï¿½ï¿½Aï¿½uï¿½Oï¿½nï¿½Ë¨àªºï¿½Aï¿½Pï¿½Â§Aï¿½Ì¡]ï¿½ß¥ï¿½ï¿½ï¿½qÂ§ï¿½^ï¿½Iï¿½ï¿½qï¿½[ï¿½oï¿½I";
 	private static String previewContex = context.substring(0,20)+ "...";
 	private static String firstCharcter = title.substring(0,1);
 	public void main(String[] args){
@@ -38,8 +38,8 @@ public class News {
 		String print4 = ("<img class='img-responsive' src='img/item3.jpg' alt=''>");
 		String print5 = ("<div class='about-details'>");
 		String print6 = ("<div class='pentagon-text'>");
-		String print7 = ("<h1>"+firstCharcter+"</h1>");
-		String print8 = ("<h3>"+title+"</h3>");
+		String print7 = ("<h1 >"+firstCharcter+"</h1>");
+		String print8 = ("<h3 id = 'title'>"+title+"</h3>");
 		String print9 = ("<p>"+previewContex+"</p>");
 		String print10 =("<a href='newsDetail.jsp' /a>");
 		StringBuffer bufferOut = new StringBuffer();
