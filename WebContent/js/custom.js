@@ -4,8 +4,8 @@ jQuery(document).ready(function() {
    $('#carouselHacked').carousel();
   
 	//this code is for the gmap
-	 var isShow = false;
-	 var map = new GMaps({
+   var isShow = false;
+   var map = new GMaps({
         el: '#map',
         lat: 24.150693,
         lng: 120.650955
@@ -38,30 +38,34 @@ jQuery(document).ready(function() {
           $('#listInfo ul:nth-child(3) li span:nth-child(3)').html(shopInfo.tel);
           $('#listInfo ul:nth-child(4) li span:nth-child(3)').html(shopInfo.fax);
           $('#listInfo ul:nth-child(5) li span:nth-child(3)').html(shopInfo.mail);
-          document.getElementById('section').style.visibility = 'visible';
+          $('#section').css("visibility","visible");
           isShow = true;
         }
       };
       return tempMark;
    }
-   //更改section資訊的方法
 
 
    //增加markers
-   // markers.push(createMarker(24.150693,120.650955));
    markers.push(createMarker(createShop(24.150693,120.650955,1,22,333,4444,5)));
    markers.push(createMarker(createShop(24.150991,120.648557,6,77,888,9999,10)));
-   // $('#listInfo ul li span:nth-child(3)').html('11111111111');
-
 
    map.addMarkers(markers);
 
   $(document).on("click", function  (argument) {
       if (isShow) {
-        document.getElementById('section').style.visibility = 'hidden';
+        $('#section').css("visibility","hidden");
         isShow = false;
        }         
   });
+  $("#sectionBlock").on("click", function  (argument) {
+      if (isShow) {
+        event.stopPropagation();
+        $('#section').css("visibility","visible");
+        isShow = true;
+       }         
+  });
+
 
       //this code is for smooth scroll and nav selector
             $(document).ready(function () {

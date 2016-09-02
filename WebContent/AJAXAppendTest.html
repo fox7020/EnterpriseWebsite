@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		append1();
+	});
+</script>
+</head>
+<body>
+<div id= "newsArea">
+<h3>本來就有</h3>
+</div>
+
+<script type="text/javascript">
+function append1(){
+	$("#newsArea").append("<div class='col-md-4 col-sm-6'>");
+	$("#newsArea").append("<div class='single-about-detail'>");
+	$("#newsArea").append("<div class='single-about-detail'>");
+	$("#newsArea").append("<div class='about-img'>");
+	$("#newsArea").append("<img class='img-responsive' src='img/item3.jpg' alt=''>");
+	$("#newsArea").append("</div>");
+	$("#newsArea").append("<div class='about-details'>");
+	$("#newsArea").append("<div class='pentagon-text'>");
+	$("#newsArea").append("<h1>綠</h1>");
+	$("#newsArea").append("</div>");
+	$("#newsArea").append("<h3 id='title'>title</h3>");
+	$("#newsArea").append("<p id='content'>content</p>");
+	$("#newsArea").append("</div>");
+	$("#newsArea").append("</div>");
+	$("#newsArea").append("</div>");
+	
+	var append = "<div class='col-md-4 col-sm-6'><div class='single-about-detail'><div class='single-about-detail'>"
+	+"<div class='about-img'>" + "<img class='img-responsive' src='img/item3.jpg' alt=''>"+
+	"</div>"+"<div class='about-details'>"+"<div class='pentagon-text'>"+"<h1>黑</h1>"+"</div>"+
+	"<h3 id='title'>title</h3>"+"<p id='content'>content</p>"+"</div></div></div>";
+	
+	
+}
+</script>
+
+</body>
+</html>
