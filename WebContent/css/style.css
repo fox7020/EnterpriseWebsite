@@ -24,7 +24,13 @@ h1, h2{
 	text-transform: uppercase;
 	font-weight: bold;
 }
-
+#section{
+	visibility: hidden;
+}
+#contact{
+	width:70%;
+	margin:0px auto;;
+}
 /*header area*/
 .top-header{
 	background: #fff !important;

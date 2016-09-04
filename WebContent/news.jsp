@@ -1,6 +1,5 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
-<%@ page import="model.NewsService"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -124,9 +123,6 @@
 	<script>
 		var url = "http://59.127.112.147:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
-		var context;
-		var title;
-		var preContext;
 		var id;
 		var newsCount;
 		var picName;
@@ -158,7 +154,7 @@
 				
 				var append = "<div class='col-md-4 col-sm-6'><div class='single-about-detail'><div class='single-about-detail'>"
 							+"<a href='newsDetail.jsp?id="+jsonCoordinate[i].id+"'/a>"+"<div class='about-img'>" + "<img class='img-responsive' src='img/"+jsonCoordinate[i].picName+"' alt=''>"+
-							"</div>"+"<div class='about-details'>"+"<div class='pentagon-text'>"+"<h1>黑</h1>"+"</div>"+
+							"</div>"+"<div class='about-details'>"+"<div class='pentagon-text'>"+"<h1>"+jsonCoordinate[i].title.substring(0, 1)+"</h1>"+"</div>"+
 							"<h3 id='title"+i+"'>title</h3>"+"<p id='content"+i+"'>content</p>"+"</div></div></div>";
 				$("#newsArea").append(append);
 			}
