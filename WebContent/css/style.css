@@ -607,11 +607,8 @@ li a.active{
 .carousel-inner{
 	position: relative;
 }
-/*veronica add*/
-/*#menuTable{*/
-/*	margin-top: 200px;*/
-/*}*/
 
+/*-----------veronica add--------*/
 table{
 	white-space:pre;
 	width: 100%;
@@ -689,6 +686,16 @@ th:nth-child(5){
 	color:#FFA233;
 	font-size: 24pt;
 }
+
+#logoPNG{
+	position:relative;
+	width: 120px;
+	height:100px;
+	top:10px;
+	left:20px
+	
+}
+
 /*======================css for carousel=========================*/
 .carousel-fade .carousel-inner .item {
   opacity: 0;
