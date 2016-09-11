@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>DOCTOR - Responsive HTML &amp; Bootstrap Template</title>
+<title>真心茶飲店</title>
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/news-menu.css">
@@ -39,9 +39,9 @@
 	<header class="top-header">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-5 header-logo">
-					<br> <a href="index.html"><img src="img/logo.png" alt=""
-						class="img-responsive logo"></a>
+			<div class="col-xs-5 header-logo">
+				<br/>
+					<a href="index.html"><img id ="logoPNG" src="img/logo.png" alt="" class="img-responsive logo" style="width:130px; height:100px"></a>
 				</div>
 
 				<div class="col-md-7">
@@ -121,7 +121,7 @@
 	<!-- script tags
 	============================================================= -->
 	<script>
-		var url = "http://59.127.112.147:8080/EnterpriseWebsite/NewsSQL?id=";
+		var url = "http://10.1.6.68:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
 		var id;
 		var newsCount;

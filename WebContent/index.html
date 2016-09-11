@@ -25,7 +25,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-5 header-logo">
-					<a href="index.html"><img id ="logoPNG" src="img/logo.png" alt="" class="img-responsive logo" ></a>
+				<br/>
+					<a href="index.html"><img id ="logoPNG" src="img/logo.png" alt="" class="img-responsive logo" style="width:130px; height:100px"></a>
 				</div>
 
 				<div class="col-md-7">
@@ -57,6 +58,7 @@
 				</div>
 			</div>
 		</div>
+		<br/>
 	</header> <!-- end of header area -->
 	<section class="slider" id="home">
 		<div class="container-fluid">
@@ -115,31 +117,31 @@
 	<section class="team" id="menu">
 		<div class="container">
 			<div class="row">
-				<div class="team-heading text-center">
+				<div class="team-heading text-center" id="productTitle">
 					<h2>飲品介紹</h2>
 					<h4>Product</h4>
 				</div>
 				<div class="col-md-2 single-member col-sm-4" id="menuPic1">
 					<div class="person">
-						<img class="img-responsive" src="img/tea01.png" alt="tea-1">
+						<img class="img-responsive" id="meanPic1" src="img/tea01.png" alt="tea-1">
 					</div>
 					<div class="person-detail">
 						<div class="arrow-bottom"></div>
-						<h3>原味茶飲</h3>
+						<h3 id="oringinTea">原味茶飲</h3>
 						<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p> -->
 					</div>
 				</div>
-				<div class="col-md-2 single-member col-sm-4">
-					<div class="person-detail">
+				<div class="col-md-2 single-member col-sm-4" id="menuPic2">
+					<div class="person-detail" id="detail01">
 						<div class="arrow-top"></div>
 						<h3>100%鮮果</h3>
 						<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p> -->
 					</div>
 					<div class="person">
-						<img class="img-responsive" src="img/tea02.jpg" alt="tea-2">
+						<img class="img-responsive"  src="img/tea02.jpg" alt="tea-2">
 					</div>
 				</div>
-				<div class="col-md-2 single-member col-sm-4">
+				<div class="col-md-2 single-member col-sm-4" id="menuPic3">
 					<div class="person" padding-left='600px'>
 						<img class="img-responsive" src="img/tea03.jpg" alt="tea-3">
 					</div>
@@ -149,7 +151,7 @@
 						<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p> -->
 					</div>
 				</div>
-				<div class="col-md-2 single-member col-sm-4">
+				<div class="col-md-2 single-member col-sm-4" id="menuPic4">
 					<div class="person-detail">
 						<div class="arrow-top"></div>
 						<h3>美味抹茶</h3>
@@ -159,7 +161,7 @@
 						<img class="img-responsive" src="img/teas04.jpg" alt="tea-4">
 					</div>
 				</div>
-				<div class="col-md-2 single-member col-sm-4">
+				<div class="col-md-2 single-member col-sm-4" id="menuPic5">
 					<div class="person">
 						<img class="img-responsive" src="img/tea05.jpg" alt="tea-5">
 					</div>
@@ -169,74 +171,157 @@
 					<!-- 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p> -->
 					</div>
 				</div>
-				<div id="menuTable">
-					<table id="menuitem">
+				<div id="FullScreemMenuTable">
+					<table id="menuitemFull">
 					<tr>
 						<th><font color="#4169E1">原味茶系列    M  /  L</th>
 						<th><font color="#9400D3">鮮奶茶系列    M  /  L</th>
 						<th><font color="#D2691E">拿鐵系列      M  /  L</th>
 						<th><font color="#3CB371">美味抹茶系列  M  /  L</th>
-						<th><font color="#999900">100%鮮果系列  M  /  L</th>
+						<th><font color="#999900">  100%鮮果系列  M  /  L</th>
 					</tr>
 					<tr>
-						<td>錫蘭紅茶       30 / 35</td>
-						<td>鮮奶茶            35 / 40</td>
+						<td>錫蘭紅茶           30 / 35</td>
+						<td>鮮奶茶                     35 / 40</td>
 						<td>紅茶拿鐵       45 / 50</td>
 						<td>抹茶拿鐵       50 / 55</td>
-						<td>新鮮水果茶      50 / 55</td>
+						<td>新鮮水果茶  50 / 55</td>
 					</tr>	
 					<tr>
-						<td>四季春茶       25 / 30</td>
-						<td>伯爵鮮奶茶     30 / 35</td>
+						<td>四季春茶           25 / 30</td>
+						<td>伯爵鮮奶茶      30 / 35</td>
 						<td>冬瓜拿鐵       45 / 50</td>
 						<td>京都抹茶       50 / 55</td>
 						<td>柚子鮮茶         50 / 55</td>
 					</tr>
 					<tr>
-						<td>黃金麥茶       25 / 30</td>
-						<td>鮮奶綠            35 / 40</td>
+						<td>黃金麥茶           25 / 30</td>
+						<td>鮮奶綠                     35 / 40</td>
 						<td>玄米拿鐵       45 / 50</td>
 						<td>抹茶紅豆       50 / 60</td>
 						<td>葡萄柚綠         50 / 55</td>
 						
 					</tr>
 					<tr>
-						<td>茉莉綠茶       25 / 30</td>
-						<td>珍珠鮮奶茶     35 / 40</td>
+						<td>茉莉綠茶           25 / 30</td>
+						<td>珍珠鮮奶茶       35 / 40</td>
 						<td>焙茶拿鐵       45 / 50</td>
 						<td>宇治抹茶       50 / 60</td>
 						<td>凍頂檸檬         45 / 50</td>
 					</tr>
 					
 					<tr>
-						<td>阿里山冰茶   25 / 30</td>
-						<td>布丁鮮奶茶     40 / 45</td>
+						<td>阿里山冰茶    25 / 30</td>
+						<td>布丁鮮奶茶       40 / 45</td>
 						<td>香草拿鐵       45 / 50</td>
 						<td>宇治抹茶       50 / 60</td>
 						<td>百香果綠         45 / 50</td>
 					</tr>
 					
 					<tr>
-						<td>凍頂烏龍       25 / 30</td>
-						<td>焦糖鮮奶茶     45 / 50</td>
+						<td>凍頂烏龍           25 / 30</td>
+						<td>焦糖鮮奶茶       45 / 50</td>
 						<td>焦糖拿鐵       45 / 50</td>
 						<td>抹茶可可       45 / 50</td>
-						<td>奇異果多多      45 / 50</td>
+						<td>奇異果多多   45 / 50</td>
 						
 					</tr>
 					<tr >
 						<td colspan="5"><font color="#92AA62">加好料---- 波霸、珍珠、椰果  + 5元.       寒天、蒟蒻+10元.</td>
-						<!--<td></td>-->
-						<!--<td></td>-->
-						<!--<td></td>-->
-						<!--<td></td>-->
+						
 						
 					</tr>
-				</table>
+					</table>
+				</div>
+				
+				<div id="TwoPartMenuTable_one">
+					<table id="menuitemOne">
+					<tr>
+						<th><font color="#4169E1">原味茶系列    M  /  L</th>
+						<th><font color="#9400D3">鮮奶茶系列    M  /  L</th>
+						<th><font color="#D2691E">拿鐵系列      M  /  L</th>
+						
+					</tr>
+					<tr>
+						<td>錫蘭紅茶           30 / 35</td>
+						<td>鮮奶茶                     35 / 40</td>
+						<td>紅茶拿鐵       45 / 50</td>						
+					</tr>	
+					<tr>
+						<td>四季春茶           25 / 30</td>
+						<td>伯爵鮮奶茶      30 / 35</td>
+						<td>冬瓜拿鐵       45 / 50</td>						
+					</tr>
+					<tr>
+						<td>黃金麥茶           25 / 30</td>
+						<td>鮮奶綠                     35 / 40</td>
+						<td>玄米拿鐵       45 / 50</td>						
+					</tr>
+					<tr>
+						<td>茉莉綠茶           25 / 30</td>
+						<td>珍珠鮮奶茶       35 / 40</td>
+						<td>焙茶拿鐵       45 / 50</td>						
+					</tr>
+					
+					<tr>
+						<td>阿里山冰茶    25 / 30</td>
+						<td>布丁鮮奶茶       40 / 45</td>
+						<td>香草拿鐵       45 / 50</td>						
+					</tr>
+					
+					<tr>
+						<td>凍頂烏龍           25 / 30</td>
+						<td>焦糖鮮奶茶       45 / 50</td>
+						<td>焦糖拿鐵       45 / 50</td>						
+					</tr>
+					
+					</table>
+				</div>
+				<div id="TwoPartMenuTable_two">
+					<table id="menuitemTwo">
+					<tr>
+						<th><font color="#3CB371">美味抹茶系列  M  /  L</th>
+						<th><font color="#999900">100%鮮果系列  M  /  L</th>
+					</tr>
+					<tr>						
+						<td>抹茶拿鐵       50 / 55</td>
+						<td>新鮮水果茶  50 / 55</td>
+					</tr>	
+					<tr>						
+						<td>京都抹茶       50 / 55</td>
+						<td>柚子鮮茶         50 / 55</td>
+					</tr>
+					<tr>						
+						<td>抹茶紅豆       50 / 60</td>
+						<td>葡萄柚綠         50 / 55</td>
+						
+					</tr>
+					<tr>						
+						<td>宇治抹茶       50 / 60</td>
+						<td>凍頂檸檬         45 / 50</td>
+					</tr>
+					
+					<tr>						
+						<td>宇治抹茶       50 / 60</td>
+						<td>百香果綠         45 / 50</td>
+					</tr>
+					
+					<tr>						
+						<td>抹茶可可       45 / 50</td>
+						<td>奇異果多多   45 / 50</td>
+						
+					</tr>
+					<tr >
+						<td colspan="5"><font color="#92AA62">加好料---- 波霸、珍珠、椰果  + 5元.       寒天、蒟蒻+10元.</td>
+						
+						
+					</tr>
+					</table>
 				</div>
 			</div>
 		</div>
-	</section><!-- end of team section -->
+	</section>
+	<!-- end of team section -->
 
 	<!-- order section -->
 	<section class="team" id="order">

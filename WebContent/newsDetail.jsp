@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ page import="model.NewsService"%>
-<%@ page import="model.MultipartUtility" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,8 +38,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-5 header-logo">
-					<br> <a href="index.html"><img src="img/logo.png" alt=""
-						class="img-responsive logo"></a>
+				<br/>
+					<a href="index.html"><img id ="logoPNG" src="img/logo.png" alt="" class="img-responsive logo" style="width:130px; height:100px"></a>
 				</div>
 
 				<div class="col-md-7">
@@ -123,7 +121,7 @@
 	<!-- script tags
 	============================================================= -->
 	<script>
-		var url = "http://59.127.112.147:8080/EnterpriseWebsite/NewsSQL?id=";
+		var url = "http://10.1.6.68:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
 		var context;
 		var picName;

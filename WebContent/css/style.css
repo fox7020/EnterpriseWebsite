@@ -24,22 +24,13 @@ h1, h2{
 	text-transform: uppercase;
 	font-weight: bold;
 }
-#section{
-	visibility: hidden;
-}
-#contact{
-	width:70%;
-	margin:0px auto;;
-}
+
 /*header area*/
 .top-header{
 	background: #fff !important;
-	
 	position: fixed;
 	width: 100%;
-	height: 119px;
 	z-index: 99999;
-	
 }
 .header-backup{
 	width: 20px;
@@ -48,7 +39,7 @@ h1, h2{
 	margin:auto;
 }
 .top-header img.logo{
-	margin-bottom: 25px;
+	margin-bottom: 5px; <!-- -->
 	margin-top: 0;
 	transition:all .5s ease 0s;
   -webkit-transition:all .5s ease 0s;
@@ -183,10 +174,6 @@ li a.active{
 }
 
 /*about area*/
-.about text-center{
-	
-	
-}
 .about h2{
 	font-size: 90px;
 	color: #42b3e5;
@@ -259,7 +246,7 @@ li a.active{
 .about-details h3{
 	font-size: 36px;
 	color: #fff;
-	margin-top: 119;
+	margin-top: 0;
 }
 .about-details p{
 	font-size: 13px;
@@ -478,7 +465,6 @@ li a.active{
 }
 .contact-info{
 	padding-left: 40px;
-	left: 330px;
 }
 .contact-info h3{
 	padding-left: 0;
@@ -608,94 +594,6 @@ li a.active{
 	position: relative;
 }
 
-/*-----------veronica add--------*/
-table{
-	white-space:pre;
-	width: 100%;
-	/*background-image:  url("/img/table.jpg");*/
-	/*border: 2px solid;*/
-}
-
-table tr td{
-	white-space:pre;
-	height: 35px;
-	font-size: 2rem;
-	/*border:solid;*/
-}
-
-th{
-	/*text-align: center;*/
-	font-size: 2rem;
-	font-weight: bold;
-	font-style: oblique;
-	height: 60px;
-}
-
-td:nth-child(1) {
-	color:#4169E1;
-	padding-left: 5px;
-}
-td:nth-child(2) {
-	color:#9400D3;
-	border-left-style: dotted;
-	padding-left: 30px;
-
-}
-td:nth-child(3) {
-	color:#D2691E;
-	border-left-style: dotted;
-	padding-left: 30px;
-}
-td:nth-child(4) {
-	color:#3CB371;
-	border-left-style: dotted;
-	padding-left: 30px;
-}
-td:nth-child(5) {
-	color:#999900;
-	border-left-style: dotted;
-	padding-left: 30px;
-}
-tr:nth-child(8){
-	/*text-align: right;*/
-	height: 70px;
-}
-th:nth-child(1){
-	padding-left: 5px;
-}
-th:nth-child(2){
-	padding-left: 30px;
-}
-th:nth-child(3){
-	padding-left: 30px;
-}
-th:nth-child(4){
-	padding-left: 30px;
-}
-th:nth-child(5){
-	padding-left: 30px;
-}
-#menuPic1{
-	position: relative;
-	margin-left: 100px;
-}
-
-
-#qrCode-Detail{
-	padding-top: 120px;
-	color:#FFA233;
-	font-size: 24pt;
-}
-
-#logoPNG{
-	position:relative;
-	width: 120px;
-	height:100px;
-	top:10px;
-	left:20px
-	
-}
-
 /*======================css for carousel=========================*/
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -745,14 +643,113 @@ th:nth-child(5){
     }
 }
 
-/* just for demo purpose */
-    html,
-    body,
-    .carousel,
-    .carousel-inner,
-    .carousel-inner .item {
-      height: 100%;
-    }
+/*-----------veronica add--------*/
+	table{
+		white-space:pre;
+		width: 100%;
+		/*background-image:  url("/img/table.jpg");*/
+		/*border: 2px solid;*/
+	}
+	
+	table tr td{
+		white-space:pre;
+		height: 35px;
+		font-size: 2rem;
+		color:#808080;
+		/*border:solid;*/
+	}
+	
+	th{
+		/*text-align: center;*/
+		padding-top:30px;
+		font-size: 2rem;
+		font-weight: bold;
+		font-style: oblique;
+		height: 60px;
+	}
+
+	td:nth-child(1) {
+		/*color:#4169E1;*/
+		padding-left: 5px;
+	}
+	td:nth-child(2) {
+		/*color:#9400D3;*/
+		border-left-style: dotted;
+		padding-left: 30px;
+	
+	}
+	td:nth-child(3) {
+		/*color:#D2691E;*/
+		border-left-style: dotted;
+		padding-left: 30px;
+	}
+	td:nth-child(4) {
+		/*color:#3CB371;*/
+		border-left-style: dotted;
+		padding-left: 30px;
+	}
+	td:nth-child(5) {
+		/*color:#999900;*/
+		border-left-style: dotted;
+		padding-left: 30px;
+	}
+	tr:nth-child(8){
+		/*text-align: right;*/
+		height: 70px;
+	}
+	
+
+	th:nth-child(1){
+		padding-left: 5px;
+	}
+	th:nth-child(2){
+		padding-left: 30px;
+	}
+	th:nth-child(3){
+		padding-left: 30px;
+	}
+	th:nth-child(4){
+		padding-left: 30px;
+	}
+	th:nth-child(5){
+		padding-left: 10px;
+	}
+	#menuPic1{
+		position: relative;
+		margin-left: 100px;
+	}
+	
+	#qrCode-Detail{
+		padding-top: 60px;
+		color:#FFA233;
+		font-size: 24pt;		
+		word-wrap: break-word;
+		word-break: break-all;
+		
+	}
+
+
+
+/*veronica revised*/
+	.person{
+	  		width: 190px;
+	  		height: 300px;
+	  	
+	  	}
+	  	
+	/*table change with screen size*/
+	
+	#FullScreemMenuTable{
+		display: inline;
+	}  	
+	
+	#TwoPartMenuTable_one{
+		display: none;
+	}
+	
+	#TwoPartMenuTable_two{
+		display: none;
+	}
 
 
 /******************************
@@ -787,6 +784,17 @@ responsive area
   	}
   	.person-detail p {
   		font-size: 12px;
+  	}
+  	
+  	/* product pics resized*/
+  	
+  	.person{
+  		width: 150px;
+  		height: 280px;
+  	
+  	}
+  	.person-detail{
+  		width: 150px;
   	}
 
 }
@@ -826,6 +834,37 @@ responsive area
 	.contact-caption {
 	 margin-top: 110px;
 	}
+	
+	/* menu table change*/	
+	#FullScreemMenuTable{
+		display: none;
+	}  	
+	
+	#TwoPartMenuTable_one{
+		display: inline;
+	}
+	
+	#TwoPartMenuTable_two{
+		display: inline;
+	}
+	
+	#menuitemTwo
+	
+	
+	/* product pics resized*/
+  	
+  	.person{
+  		width: 190px;
+  		height: 250px;
+  	
+  	}
+  	
+  	.person-detail{
+  		width: 190px;
+  		margin-top: 25px;
+  	}
+  	
+	
 }
 
 /* xs */
@@ -872,6 +911,71 @@ responsive area
 	.contact-caption {
 	  margin-top: 140px;
 	}
+	
+	/* menu table change*/	
+	#FullScreemMenuTable{
+		display: none;
+	}  	
+	
+	#TwoPartMenuTable_one{
+		display: inline;
+	}
+	
+	#TwoPartMenuTable_two{
+		display: inline;
+	}
+	
+	
+	/* product pics resized*/
+  	
+  	.person{
+  		width: 190px;
+  		height: 230px;
+  	
+  	}
+  	
+  	#productTitle{
+  		position: relative;
+  	}
+  	
+  	#oringinTea{
+  		position: relative;
+  		top: 100px;
+  		
+  	}
+  	
+  	
+  	#menuPic1{ /*­ì¨ý¯ù*/
+  		position: relative;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-bottom: 5%;
+  	}
+  	/*
+  	#menuPic2{
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-bottom: 5%;
+  	}
+  	*/
+  	.arrow-bottom{
+  		display: none;
+  	}
+  	
+  	.arrow-top{
+  		display: none;
+  	}
+  	/*
+  	.person-detail{
+  		width: 80%;
+  		margin-top: 50px;
+  		margin-left:10%;
+  	}
+	*/
 }
 
 /* XS Portrait */
@@ -977,4 +1081,18 @@ responsive area
 	.footer p {
   		font-size: 10px;
   	}
+  	
+  	
+  	/* menu table change*/	
+	#FullScreemMenuTable{
+		display: none;
+	}  	
+	
+	#TwoPartMenuTable_one{
+		display: inline;
+	}
+	
+	#TwoPartMenuTable_two{
+		display: inline;
+	}
 }
