@@ -57,8 +57,7 @@
 							</div>
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse"
-								id="bs-example-navbar-collapse-1">
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color: white;">
 
 								<ul class="nav navbar-nav navbar-right">
 									<li><a class="menu" href="index.html#home">首頁</a></li>
@@ -86,13 +85,10 @@
 					<h4 id='title'></h4>
 				</div>
 
-				<div class="person" align="center";>
-					
-					<img id ="newsImg" class="img-responsive" src="img/actions-20160801-L.jpg" alt="member-1">
+				<div class="person" align="center">					
+					<img id ="newsImg" class="img-responsive">
 				</div>
-				<div class="person-detail">
-					<div class="arrow-bottom"></div>
-					
+				<div class="person-detail" id="newsBox">					
 					<p id="content"></p>
 				</div>
 
@@ -121,7 +117,7 @@
 	<!-- script tags
 	============================================================= -->
 	<script>
-		var url = "http://10.1.6.68:8080/EnterpriseWebsite/NewsSQL?id=";
+		var url = "http://192.168.56.1:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
 		var context;
 		var picName;

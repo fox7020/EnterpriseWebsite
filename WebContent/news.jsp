@@ -49,9 +49,7 @@
 						<div class="container-fluid nav-bar">
 							<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed"
-									data-toggle="collapse"
-									data-target="#bs-example-navbar-collapse-1">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 									<span class="sr-only">Toggle navigation</span> <span
 										class="icon-bar"></span> <span class="icon-bar"></span> <span
 										class="icon-bar"></span>
@@ -59,8 +57,7 @@
 							</div>
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse"
-								id="bs-example-navbar-collapse-1">
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color: white;">
 
 								<ul class="nav navbar-nav navbar-right">
 									<li><a class="menu" href="index.html#home">首頁</a></li>
@@ -100,9 +97,6 @@
 	</section>
 	<!-- end of about section -->
 
-
-
-
 	<!-- footer starts here -->
 	<footer class="footer clearfix">
 		<div class="container">
@@ -121,7 +115,7 @@
 	<!-- script tags
 	============================================================= -->
 	<script>
-		var url = "http://10.1.6.68:8080/EnterpriseWebsite/NewsSQL?id=";
+		var url = "http://192.168.56.1:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
 		var id;
 		var newsCount;
@@ -152,9 +146,9 @@
 			
 			for(var i=0; i<newsCount; i++){
 				
-				var append = "<div class='col-md-4 col-sm-6'><div class='single-about-detail'><div class='single-about-detail'>"
-							+"<a href='newsDetail.jsp?id="+jsonCoordinate[i].id+"'/a>"+"<div class='about-img'>" + "<img class='img-responsive' src='img/"+jsonCoordinate[i].picName+"' alt=''>"+
-							"</div>"+"<div class='about-details'>"+"<div class='pentagon-text'>"+"<h1>"+jsonCoordinate[i].title.substring(0, 1)+"</h1>"+"</div>"+
+				var append = "<div class='col-md-4 col-sm-6' style='height:550px;'><div class='single-about-detail'><div class='single-about-detail'>"
+							+"<a href='newsDetail.jsp?id="+jsonCoordinate[i].id+"'/a>"+"<div class='about-img'>" + "<img class='img-responsive' src='img/"+jsonCoordinate[i].picName+"' style='height:300px'>"+
+							"</div>"+"<div class='about-details' style='height:180px'>"+"<div class='pentagon-text'>"+"<h1>"+jsonCoordinate[i].title.substring(0, 1)+"</h1>"+"</div>"+
 							"<h3 id='title"+i+"'>title</h3>"+"<p id='content"+i+"'>content</p>"+"</div></div></div>";
 				$("#newsArea").append(append);
 			}

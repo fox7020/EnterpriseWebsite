@@ -372,7 +372,7 @@ li a.active{
 	padding-bottom: 60px;
 }
 .team h2{
-	font-size: 90px;
+	font-size: 75px;
 	color: #42b3e5;
 	margin-top: 50px;
 	margin-bottom: 0;
@@ -392,7 +392,6 @@ li a.active{
 }
 .person-detail{
 	padding:10px;
-	background: #3a9cc8;
 	position: relative;
 	transition: all .7s ease 0s;
 	-webkit-transition: all .7s ease 0s;
@@ -404,7 +403,9 @@ li a.active{
 	position: absolute;
 	width: 20px;
 	height: 20px;
+	/*
 	background: #3ba0cc;
+	*/
 	transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
@@ -422,7 +423,9 @@ li a.active{
 	position: absolute;
 	width: 20px;
 	height: 20px;
+	/*
 	background: #3ba0cc;
+	*/
 	transform:rotate(45deg);
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
@@ -436,15 +439,18 @@ li a.active{
 	-o-transition: all .7s ease 0s;
 	-ms-transition: all .7s ease 0s;
 }
-.person-detail h3{
+.person-detail h3{ /*product title color*/
+	text-align: center;
+	font-style: bold;
 	font-size: 30px;
-	color: #fff;
+	color: #808040;
 }
 .person-detail p{
 	font-size: 13px;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 }
+/*
 .single-member:hover .person-detail{
 	background: #2a2a2a;
 }
@@ -454,7 +460,7 @@ li a.active{
 .single-member:hover .arrow-bottom{
 	background: #2a2a2a;
 }
-
+*/
 /*contact section*/
 .contact-caption{
 	background: #3a9dca;
@@ -594,56 +600,10 @@ li a.active{
 	position: relative;
 }
 
-/*======================css for carousel=========================*/
-.carousel-fade .carousel-inner .item {
-  opacity: 0;
-  transition-property: opacity;
-}
 
-.carousel-fade .carousel-inner .active {
-  opacity: 1;
-}
-
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 1;
-}
-
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-
-.carousel-fade .carousel-control {
-  	z-index: 2;
-    opacity: 1;
-    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%);
-}
-@media all and (transform-3d), (-webkit-transform-3d) {
-    .carousel-fade .carousel-inner > .item.next,
-    .carousel-fade .carousel-inner > .item.active.right {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.prev,
-    .carousel-fade .carousel-inner > .item.active.left {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.next.left,
-    .carousel-fade .carousel-inner > .item.prev.right,
-    .carousel-fade .carousel-inner > .item.active {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-}
 
 /*-----------veronica add--------*/
+/*menu table origin css*/
 	table{
 		white-space:pre;
 		width: 100%;
@@ -670,7 +630,7 @@ li a.active{
 
 	td:nth-child(1) {
 		/*color:#4169E1;*/
-		padding-left: 5px;
+		padding-left: 10px;
 	}
 	td:nth-child(2) {
 		/*color:#9400D3;*/
@@ -714,31 +674,44 @@ li a.active{
 	th:nth-child(5){
 		padding-left: 10px;
 	}
-	#menuPic1{
+	
+	/*menu table origin css end*/
+	
+	
+	#menuPic1{ /*product pic center*/
 		position: relative;
 		margin-left: 100px;
 	}
 	
 	#qrCode-Detail{
-		padding-top: 60px;
+		padding-top: 30px;
 		color:#FFA233;
 		font-size: 24pt;		
 		word-wrap: break-word;
 		word-break: break-all;
 		
 	}
+	
+	#qrCode-url{
+		font-size: 20pt;	
+	}
+	
+	#qrCodePng{
+		width: 100%;
+		height: 70%;
+	}
 
 
 
-/*veronica revised*/
+	/*product pic change*/	
+
 	.person{
 	  		width: 190px;
 	  		height: 300px;
 	  	
 	  	}
 	  	
-	/*table change with screen size*/
-	
+	/*menu table change with screen size*/	
 	#FullScreemMenuTable{
 		display: inline;
 	}  	
@@ -750,8 +723,72 @@ li a.active{
 	#TwoPartMenuTable_two{
 		display: none;
 	}
-
-
+	
+	#tearTableDiv01{
+		display: none;
+	}
+	#tearTableDiv02{
+		display: none;
+	}
+	#tearTableDiv03{
+		display: none;
+	}
+	#tearTableDiv04{
+		display: none;
+	}	
+	#tearTableDiv05{
+		display: none;
+	}
+	/*menu table change with screen size end*/
+	
+	/*======================css for carousel=========================*/
+	.carousel-fade .carousel-inner .item {
+	  opacity: 0;
+	  transition-property: opacity;
+	}
+	
+	.carousel-fade .carousel-inner .active {
+	  opacity: 1;
+	}
+	
+	.carousel-fade .carousel-inner .active.left,
+	.carousel-fade .carousel-inner .active.right {
+	  left: 0;
+	  opacity: 0;
+	  z-index: 1;
+	}
+	
+	.carousel-fade .carousel-inner .next.left,
+	.carousel-fade .carousel-inner .prev.right {
+	  opacity: 1;
+	}
+	
+	.carousel-fade .carousel-control {
+	  	z-index: 2;
+	    opacity: 1;
+	    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%);
+	}
+	@media all and (transform-3d), (-webkit-transform-3d) {
+	    .carousel-fade .carousel-inner > .item.next,
+	    .carousel-fade .carousel-inner > .item.active.right {
+	      opacity: 0;
+	      -webkit-transform: translate3d(0, 0, 0);
+	              transform: translate3d(0, 0, 0);
+	    }
+	    .carousel-fade .carousel-inner > .item.prev,
+	    .carousel-fade .carousel-inner > .item.active.left {
+	      opacity: 0;
+	      -webkit-transform: translate3d(0, 0, 0);
+	              transform: translate3d(0, 0, 0);
+	    }
+	    .carousel-fade .carousel-inner > .item.next.left,
+	    .carousel-fade .carousel-inner > .item.prev.right,
+	    .carousel-fade .carousel-inner > .item.active {
+	      opacity: 1;
+	      -webkit-transform: translate3d(0, 0, 0);
+	              transform: translate3d(0, 0, 0);
+	    }
+	}
 /******************************
 responsive area
 ********************************/
@@ -760,7 +797,7 @@ responsive area
 @media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-default .navbar-nav>li>a {
 	  font-size: 20px;
-	  padding: 14px 12px;
+	  padding: 14px 8px;
 	}
 	.carousel-caption h1 {
   		font-size: 120px;
@@ -773,12 +810,13 @@ responsive area
 	  height: 55px;
 	  font-size: 26px;
 	}
-	h2 {
-  		font-size: 75px !important;
+	.team h2 {
+  		font-size: 70px !important;
   	}
   	h4 {
   		font-size: 22px !important;
   	}
+  		
   	.person-detail h3 {
   		font-size: 26px;
   	}
@@ -818,8 +856,8 @@ responsive area
 		 color: #fff;
 		 font-size: 22px;
 	}
-	h2 {
-  		font-size: 70px !important;
+	.team h2 {
+  		font-size: 65px !important;
   	}
   	h4 {
   		font-size: 18px !important;
@@ -847,11 +885,62 @@ responsive area
 	#TwoPartMenuTable_two{
 		display: inline;
 	}
+	#tearTableDiv01{
+		display: none;
+	}
+	#tearTableDiv02{
+		display: none;
+	}
+	#tearTableDiv03{
+		display: none;
+	}
+	#tearTableDiv04{
+		display: none;
+	}	
+	#tearTableDiv05{
+		display: none;
+	}
 	
-	#menuitemTwo
+	th:nth-child(1){
+		padding-left: 20px;
+	}
 	
+	td:nth-child(1) {
+		/*color:#4169E1;*/
+		padding-left: 20px;
+	}	
+	
+	#TwoPartMenuTable_two > table{ /*table two slim*/
+		width:66%;
+	}
+	
+	/*QR Code resized*/
+	#qrCode-Detail{
+		padding-top: 20px;
+		color:#FFA233;
+		font-size: 20pt;		
+		word-wrap: break-word;
+		word-break: break-all;
+	}
+	
+	#qrCode-url{
+		font-size: 18pt;	
+	}
+	
+	#qrCodePng{
+		width: 100%;
+		height: 70%;
+	}
 	
 	/* product pics resized*/
+	
+	.arrow-bottom{
+  		display: none;
+  	}
+  	
+  	.arrow-top{
+  		display: none;
+  	}
   	
   	.person{
   		width: 190px;
@@ -864,6 +953,28 @@ responsive area
   		margin-top: 25px;
   	}
   	
+  	/*menu pic & title adjust*/
+  	#juicePic{
+  		position:relative;
+  		top: -100px;
+  		margin-left:50px;
+  	}
+  	
+  	#juiceTitle{
+  		position: relative;
+  		top: 250px;
+  		margin-left:50px;
+  	}
+  	
+  	#mochaPic{
+  		position:relative;
+  		top: -100px;
+  	}
+  	
+  	#mochaTitle{
+  		position: relative;
+  		top: 250px;
+  	}
 	
 }
 
@@ -876,7 +987,7 @@ responsive area
 	  font-size: 20px;
 	}
 	.carousel-caption {
-	    margin-top: -110px;
+	    margin-top: -90px;
 	}
 	.carousel-caption h1 {
   		font-size: 75px;
@@ -897,8 +1008,13 @@ responsive area
 		margin-top: -1120px;
 	}
 	h2 {
-	  font-size: 70px !important;
+	  font-size: 62px !important;
 	}
+	
+	.team h2{
+	  font-size: 60px !important;
+	}
+	
 	h4{
   		font-size: 21px !important;
   	}
@@ -925,9 +1041,57 @@ responsive area
 		display: inline;
 	}
 	
+	#tearTableDiv01{
+		display: none;
+	}
+	#tearTableDiv02{
+		display: none;
+	}
+	#tearTableDiv03{
+		display: none;
+	}
+	#tearTableDiv04{
+		display: none;
+	}	
+	#tearTableDiv05{
+		display: none;
+	}
 	
-	/* product pics resized*/
-  	
+	#TwoPartMenuTable_two > table{ /*table two slim*/
+		width:65%;
+	}
+	
+	/*QR Code resized*/
+	#qrCode-Detail{
+		position: relative;
+		padding-top: 20px;
+		margin-top: 20px;
+		padding-left: 100px;
+		width: 500px;
+		color:#FFA233;
+		font-size: 18pt;		
+		word-wrap: break-word;
+		word-break: break-all;
+	}
+	
+	#qrCode-url{
+	position: relative;
+		padding-top: 20px;
+		padding-left: 100px;
+		margin-top: 20px;
+		font-size: 17pt;	
+		width: 500px;
+	}
+	
+	.person > #qrCodePng{
+		position: absolute;
+		width: 40%;
+		height: auto;
+		left:180px;
+	}
+	
+	
+	/* product pics resized*/  	
   	.person{
   		width: 190px;
   		height: 230px;
@@ -944,24 +1108,135 @@ responsive area
   		
   	}
   	
-  	
+  	/*pic one*/
   	#menuPic1{ /*­ì¨ý¯ù*/
-  		position: relative;
+  		position: absolute;
   		width: 190px;
   		height: 230px;
   		textp-align: center;
-  		padding-left:35%;
+  		padding-left:18%;
   		margin-bottom: 5%;
+  	}
+  	
+  	#originTeaPic{
+  		position: absolute;
+  		top: 5px;
+  	}
+  	
+  	#originTeaTitle{
+  		position: relative;
+  		top:-250px;
+  		left: 200px;
+  		width: 0px;  		
+  		
   	}
   	/*
+  	#originTea{
+  		position: relative;
+  		top:-30px;
+  		left: 320px;
+  		width: auto;  		
+  	}
+  	*/
+  	/*pic two*/
   	#menuPic2{
+  		position: relative;
+  		top: 200px;
   		width: 190px;
   		height: 230px;
   		textp-align: center;
   		padding-left:35%;
+  		margin-top: 150px;
   		margin-bottom: 5%;
   	}
-  	*/
+  	
+  	#juicePic{
+  		position: relative;
+  		top: -160px;
+  		margin-left: -10px;
+  	}
+  	
+  	#juiceTitle{
+  		position: relative;  		
+  		left: 190px;
+  		top: 50px;
+  		width: auto; 
+  	}
+  	
+  	/*pic three*/
+  	#menuPic3{
+  		position: relative;
+  		top: 200px;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-top: 150px;
+  		margin-bottom: 5%;
+  	}
+  	#lattePic{
+  		position: relative;
+  		top: -40px;
+  		margin-left: -10px;
+  	}
+  	#latteTitle{
+  		position: relative;  		
+  		left: 180px;
+  		top: -230px;
+  		width: auto; 
+  	}
+  
+  	
+  	/*pic four*/
+  	#menuPic4{
+  		position: relative;
+  		top: 200px;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-top: 150px;
+  		margin-bottom: 5%;
+  	}
+  	
+  	#mochaPic{
+  		position: relative;
+  		top: -280px;
+  		margin-left: -10px;  		
+  	}
+  	
+  	#mochaTitle{
+  		position: relative;  		
+  		left: 180px;
+  		top: -80px;
+  		width: auto; 
+  	}
+  	
+  	/*pic five*/  	
+  	#menuPic5{
+  		position: relative;
+  		top: 200px;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-top: 150px;
+  		margin-bottom: 5%;
+  	}
+  	
+  	#milkTeaPic{
+  		position: relative;
+  		top: -200px;
+  		margin-left: -10px;  		
+  	}
+  	
+  	#milkTeaTitle{
+  		position: relative;  		
+  		left: 180px;
+  		top: -380px;
+  		width: auto; 
+  	}
+  
   	.arrow-bottom{
   		display: none;
   	}
@@ -980,6 +1255,10 @@ responsive area
 
 /* XS Portrait */
 @media (max-width: 479px) {
+	h2 {
+  		font-size: 45px !important;
+  	}
+	
 	.top-header img.logo {
 	  margin: 20px 10px;
 	}
@@ -1089,10 +1368,213 @@ responsive area
 	}  	
 	
 	#TwoPartMenuTable_one{
-		display: inline;
+		display: none;
 	}
 	
 	#TwoPartMenuTable_two{
+		display: none;
+	}
+	
+	#tearTableDiv01{
+		display: inline;		
+	}
+	#tearTableDiv02{
 		display: inline;
 	}
+	#tearTableDiv03{
+		display: inline;
+	}
+	#tearTableDiv04{
+		display: inline;
+	}	
+	#tearTableDiv05{
+		display: inline;
+	}
+	
+	#tearTableDiv01 > table{ /*table two slim*/
+		width:50%;
+	}
+	#tearTableDiv02 > table{ /*table two slim*/
+		width:50%;
+	}
+	#tearTableDiv03 > table{ /*table two slim*/
+		width:50%;
+	}
+	#tearTableDiv04 > table{ /*table two slim*/
+		width:50%;
+	}
+	#tearTableDiv05 > table{ /*table two slim*/
+		width:50%;
+	}
+	th:nth-child(1){
+		padding-left: 50%;
+	}
+	
+	td:nth-child(1){
+		padding-left: 50%;
+	}
+	
+	/*QR Code resized*/
+	#qrCode-Detail{
+		position: relative;
+		padding-top: 10px;
+		margin-top: 10px;
+		padding-left: 70px;
+		width: 320px;
+		color:#FFA233;
+		font-size: 16pt;		
+		word-wrap: break-word;
+		word-break: break-all;
+	}
+	
+	#qrCode-url{
+	position: relative;
+		padding-top: 10px;
+		padding-left: 70px;
+		margin-top: 10px;
+		font-size: 16pt;	
+		width: 320px;
+	}
+	
+	.person > #qrCodePng{
+		position: absolute;
+		width: 40%;
+		height: auto;
+		left:110px;
+	}
+	
+	#qrCodeDiv{
+		height: 180px;
+	}
+	
+	/*product pic & title*/
+	/*pic one*/
+  	#menuPic1{ /*­ì¨ý¯ù*/
+  		position: absolute;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:10%;
+  		margin-bottom: 5%;
+  	}
+  	
+  	#originTeaPic{
+  		position: absolute;
+  		top: 5px;
+  	}
+  	
+  	#originTeaTitle{
+  		position: relative;
+  		top:-250px;
+  		left: 200px;
+  		width: 0px;  		
+  		
+  	}
+  	/*
+  	#originTea{
+  		position: relative;
+  		top:-30px;
+  		left: 320px;
+  		width: auto;  		
+  	}
+  	*/
+  	/*pic two*/
+  	#menuPic2{
+  		position: relative;
+  		top: 200px;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-top: 150px;
+  		margin-bottom: 5%;
+  	}
+  	
+  	#juicePic{
+  		position: relative;
+  		top: -160px;
+  		margin-left: -10px;
+  	}
+  	
+  	#juiceTitle{
+  		position: relative;  		
+  		left: 190px;
+  		top: 50px;
+  		width: auto; 
+  	}
+  	
+  	/*pic three*/
+  	#menuPic3{
+  		position: relative;
+  		top: 200px;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-top: 150px;
+  		margin-bottom: 5%;
+  	}
+  	#lattePic{
+  		position: relative;
+  		top: -40px;
+  		margin-left: -10px;
+  	}
+  	#latteTitle{
+  		position: relative;  		
+  		left: 180px;
+  		top: -230px;
+  		width: auto; 
+  	}
+  
+  	
+  	/*pic four*/
+  	#menuPic4{
+  		position: relative;
+  		top: 200px;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-top: 150px;
+  		margin-bottom: 5%;
+  	}
+  	
+  	#mochaPic{
+  		position: relative;
+  		top: -280px;
+  		margin-left: -10px;  		
+  	}
+  	
+  	#mochaTitle{
+  		position: relative;  		
+  		left: 180px;
+  		top: -80px;
+  		width: auto; 
+  	}
+  	
+  	/*pic five*/  	
+  	#menuPic5{
+  		position: relative;
+  		top: 200px;
+  		width: 190px;
+  		height: 230px;
+  		textp-align: center;
+  		padding-left:35%;
+  		margin-top: 150px;
+  		margin-bottom: 5%;
+  	}
+  	
+  	#milkTeaPic{
+  		position: relative;
+  		top: -200px;
+  		margin-left: -10px;  		
+  	}
+  	
+  	#milkTeaTitle{
+  		position: relative;  		
+  		left: 180px;
+  		top: -380px;
+  		width: auto; 
+  	}
+	
 }
