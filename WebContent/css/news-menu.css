@@ -608,7 +608,7 @@ li a.active{
 }
 #newsBox{
 	width:60%;
-	
+	margin-top:2px;
 }
 
 #newsBox> p{
@@ -664,16 +664,6 @@ li a.active{
               transform: translate3d(0, 0, 0);
     }
 }
-
-/* just for demo purpose */
-    html,
-    body,
-    .carousel,
-    .carousel-inner,
-    .carousel-inner .item {
-      height: 100%;
-    }
-
 
 /******************************
 responsive area

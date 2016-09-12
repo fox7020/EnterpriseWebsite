@@ -57,7 +57,7 @@
 							</div>
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color: white;">
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 								<ul class="nav navbar-nav navbar-right">
 									<li><a class="menu" href="index.html#home">首頁</a></li>
@@ -117,7 +117,7 @@
 	<!-- script tags
 	============================================================= -->
 	<script>
-		var url = "http://192.168.56.1:8080/EnterpriseWebsite/NewsSQL?id=";
+		var url = "http://192.168.1.102:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
 		var context;
 		var picName;
