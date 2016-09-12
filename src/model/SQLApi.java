@@ -70,7 +70,7 @@ public class SQLApi {
 		String data = "";
 		
 		try{
-			pstmt = con.prepareStatement("SELECT id,title,content,picName FROM webnews");
+			pstmt = con.prepareStatement("SELECT id,title,content,picName FROM webnews WHERE publish = 1");
 			ResultSet rs = pstmt.executeQuery();
 			JSONArray all = new JSONArray();
 			while (rs.next()) {
