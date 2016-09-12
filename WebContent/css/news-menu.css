@@ -1,14 +1,4 @@
-/*****
-*
-*
-*Author Name : Mostafizur Rahman
-*Author URI : http://mostafiz.me/
-*Version : 1.1
-*Description : This is a responsive HTML & Bootstrap template developed by Mostafizur Rahman
-*Template URI : http://mostafiz.me/demo/doctor/
-*
-*
-****/
+
 body{
 	margin: 0;
 	padding: 0;
@@ -458,7 +448,7 @@ li a.active{
 	color: #fff;
 }
 .person-detail p{
-	font-size: 13px;
+	font-size: 16px;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -611,6 +601,21 @@ li a.active{
 	position: relative;
 }
 
+/*news detail css*/
+#newsImg{
+	width:60%;
+	height:40%;
+}
+#newsBox{
+	width:60%;
+	
+}
+
+#newsBox> p{
+	font-size: 30px;
+	width: 100%;
+}
+
 /*======================css for carousel=========================*/
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -678,7 +683,7 @@ responsive area
 @media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-default .navbar-nav>li>a {
 	  font-size: 20px;
-	  padding: 14px 12px;
+	  padding: 14px 8px;
 	}
 	.carousel-caption h1 {
   		font-size: 120px;
@@ -692,7 +697,7 @@ responsive area
 	  font-size: 26px;
 	}
 	h2 {
-  		font-size: 75px !important;
+  		font-size: 70px !important;
   	}
   	h4 {
   		font-size: 22px !important;
@@ -726,7 +731,7 @@ responsive area
 		 font-size: 22px;
 	}
 	h2 {
-  		font-size: 70px !important;
+  		font-size: 65px !important;
   	}
   	h4 {
   		font-size: 18px !important;
@@ -740,6 +745,12 @@ responsive area
 	}
 	.contact-caption {
 	 margin-top: 110px;
+	}
+	
+	/*news detail font size*/
+	#newsBox> p{
+		font-size: 30px;
+		width: 100%;
 	}
 }
 
@@ -773,7 +784,7 @@ responsive area
 		margin-top: -1120px;
 	}
 	h2 {
-	  font-size: 70px !important;
+	  font-size: 60px !important;
 	}
 	h4{
   		font-size: 21px !important;
@@ -786,6 +797,12 @@ responsive area
 	}
 	.contact-caption {
 	  margin-top: 140px;
+	}
+	
+	/*news detail font size*/
+	#newsBox> p{
+		font-size: 26px;
+		width: 100%;
 	}
 }
 
@@ -829,6 +846,10 @@ responsive area
 	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
 	  margin-top: 30px;
 	}
+	h2 {
+  		font-size: 50px !important;
+  	}
+	
 	.about h2 {
 	  font-size: 50px;
 	  color: #42b3e5;
@@ -892,4 +913,10 @@ responsive area
 	.footer p {
   		font-size: 10px;
   	}
+  	
+  	/*news detail font size*/
+	#newsBox> p{
+		font-size: 22px;
+		width: 100%;
+	}
 }

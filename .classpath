@@ -9,11 +9,11 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/JSONObj.jar"/>
 	<classpathentry kind="lib" path="D:/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="D:/org.json.jar"/>
-	<classpathentry kind="lib" path="D:/sqljdbc42.jar"/>
-	<classpathentry kind="lib" path="D:/Apache Tomcat8/lib/jsp-api.jar"/>
-	<classpathentry kind="lib" path="D:/Apache Tomcat8/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Tomcat8/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/Tomcat8/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/java-json-schema.jar"/>
+	<classpathentry kind="lib" path="D:/sqljdbc4-2.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
