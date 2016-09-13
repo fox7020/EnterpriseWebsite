@@ -24,7 +24,13 @@ h1, h2{
 	text-transform: uppercase;
 	font-weight: bold;
 }
-
+#section{
+	visibility: hidden;
+}
+#contact{
+	width:70%;
+	margin:0px auto;
+}
 /*header area*/
 .top-header{
 	background: #fff !important;
@@ -464,13 +470,16 @@ li a.active{
 /*contact section*/
 .contact-caption{
 	background: #3a9dca;
+	width : 60%;
+	margin-left : 20%;
 }
 .contact-heading h2{
 	color: #fff;
 	font-size: 90px;
 }
 .contact-info{
-	padding-left: 40px;
+	position : relation;
+	left : 29%;
 }
 .contact-info h3{
 	padding-left: 0;
@@ -863,14 +872,17 @@ responsive area
   		font-size: 18px !important;
   	}
   	#map{
-		height: 1050px;
+		height: 550px;
 	}
 	.contact{
 		margin-top:-1050px;
 		height: 1050px;
 	}
 	.contact-caption {
-	 margin-top: 110px;
+	 	margin-top: 550px;
+	}
+	.contact-info{
+		left : 0;
 	}
 	
 	/* menu table change*/	
@@ -1001,12 +1013,13 @@ responsive area
 	  font-size: 20px;
 	}
 	#map{
-		height: 1120px;
+		height: 550px;
 	}
 	.contact{
 		height: 1120px;
 		margin-top: -1120px;
 	}
+
 	h2 {
 	  font-size: 62px !important;
 	}
@@ -1018,6 +1031,9 @@ responsive area
 	h4{
   		font-size: 21px !important;
   	}
+	.contact-info{
+		left : 0;
+	}
 	.contact-info ul {
 	  margin-left: 4px;
 	}
@@ -1025,7 +1041,7 @@ responsive area
 	  width: 25px;
 	}
 	.contact-caption {
-	  margin-top: 140px;
+	  margin-top: 650px;
 	}
 	
 	/* menu table change*/	
@@ -1314,10 +1330,10 @@ responsive area
 	  font-size: 18px !important;
 	}
 	.contact-caption{
-		margin-top: 38%;
+		margin-top: 650px;
 	}
 	#map{
-		height: 950px;
+		height: 350px;
 	}
 	.contact{
 		height: 950px;
@@ -1344,8 +1360,11 @@ responsive area
 	  width: 20px;
 	  height: 18px;
 	}
-	.contact-info, .contact-form{
+	.contact-form{
 		padding: 10px;
+	}
+	.contact-info{
+		left : 0;
 	}
 	.contact-form h3 {
 	  font-size: 25px;
