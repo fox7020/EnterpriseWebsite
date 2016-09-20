@@ -612,6 +612,11 @@ li a.active{
 
 
 /*-----------veronica add--------*/
+/*head loger*/
+#logoPNG{
+  		width: 130px;
+  		height: 100px;
+  	}
 /*menu table origin css*/
 	table{
 		white-space:pre;
@@ -1274,9 +1279,24 @@ responsive area
 	h2 {
   		font-size: 45px !important;
   	}
+  	#logoPNG{
+  		width: 100px;
+  		height: 70px;
+  	}
+  	
+  	#home{
+  		position: relative;
+  		top: 70px;
+  	}
+  	
+  	
+  	#menu{
+  		position: relative;
+  		top: 80px;
+  	}
 	
 	.top-header img.logo {
-	  margin: 20px 10px;
+	  margin: -20px 10px;
 	}
 	.header-logo{
 		margin-top: 20px !important;
@@ -1472,8 +1492,7 @@ responsive area
   		position: absolute;
   		width: 190px;
   		height: 230px;
-  		textp-align: center;
-  		padding-left:10%;
+  		textp-align: center;  		
   		margin-bottom: 5%;
   	}
   	
@@ -1504,7 +1523,7 @@ responsive area
   		width: 190px;
   		height: 230px;
   		textp-align: center;
-  		padding-left:35%;
+  		padding-left:110px;
   		margin-top: 150px;
   		margin-bottom: 5%;
   	}
@@ -1512,14 +1531,14 @@ responsive area
   	#juicePic{
   		position: relative;
   		top: -160px;
-  		margin-left: -10px;
+  		margin-left: -3%;
   	}
   	
   	#juiceTitle{
   		position: relative;  		
   		left: 190px;
   		top: 50px;
-  		width: auto; 
+  		width: 0px; 
   	}
   	
   	/*pic three*/
@@ -1529,20 +1548,20 @@ responsive area
   		width: 190px;
   		height: 230px;
   		textp-align: center;
-  		padding-left:35%;
+  		padding-left:110px;
   		margin-top: 150px;
   		margin-bottom: 5%;
   	}
   	#lattePic{
   		position: relative;
   		top: -40px;
-  		margin-left: -10px;
+  		margin-left: -13px;
   	}
   	#latteTitle{
   		position: relative;  		
   		left: 180px;
-  		top: -230px;
-  		width: auto; 
+  		top: -300px;
+  		width: 0px; 
   	}
   
   	
@@ -1553,7 +1572,7 @@ responsive area
   		width: 190px;
   		height: 230px;
   		textp-align: center;
-  		padding-left:35%;
+  		padding-left: 110px;
   		margin-top: 150px;
   		margin-bottom: 5%;
   	}
@@ -1561,14 +1580,14 @@ responsive area
   	#mochaPic{
   		position: relative;
   		top: -280px;
-  		margin-left: -10px;  		
+  		margin-left: -13px;  		
   	}
   	
   	#mochaTitle{
   		position: relative;  		
   		left: 180px;
   		top: -80px;
-  		width: auto; 
+  		width: 0px; 
   	}
   	
   	/*pic five*/  	
@@ -1578,7 +1597,7 @@ responsive area
   		width: 190px;
   		height: 230px;
   		textp-align: center;
-  		padding-left:35%;
+  		padding-left:110px;
   		margin-top: 150px;
   		margin-bottom: 5%;
   	}
@@ -1586,14 +1605,14 @@ responsive area
   	#milkTeaPic{
   		position: relative;
   		top: -200px;
-  		margin-left: -10px;  		
+  		margin-left: -13px;  		
   	}
   	
   	#milkTeaTitle{
   		position: relative;  		
   		left: 180px;
   		top: -380px;
-  		width: auto; 
+  		width: 0px; 
   	}
 	
 }
