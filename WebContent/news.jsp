@@ -20,7 +20,9 @@
 <script src="js/modernizr.js"></script>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 <script>
+
 	$(document).ready(function() {
 		getArticle();
 		appendNews();
@@ -35,13 +37,12 @@
 
 </head>
 <body>
-
 	<header class="top-header">
 		<div class="container">
 			<div class="row">
 			<div class="col-xs-5 header-logo">
 				<br/>
-					<a href="index.html"><img id ="logoPNG" src="img/logo.png" alt="" class="img-responsive logo" style="width:130px; height:100px"></a>
+					<a href="index.html"><img id ="logoPNG" src="img/logo.png" alt="" class="img-responsive logo"></a>
 				</div>
 
 				<div class="col-md-7">
@@ -62,7 +63,7 @@
 								<ul class="nav navbar-nav navbar-right">
 									<li><a class="menu" href="index.html#home">首頁</a></li>
 									<li><a class="menu" href="news.jsp">最新消息</a></li>
-									<li><a class="menu" href="index.html#section">關於我們 </a></li>
+									<li><a class="menu" href="index.html#contact">關於我們 </a></li>
 									<li><a class="menu" href="index.html#menu">產品介紹</a></li>
 									<li><a class="menu" href="index.html#order">線上訂購</a></li>
 								</ul>
@@ -115,7 +116,7 @@
 	<!-- script tags
 	============================================================= -->
 	<script>
-		var url = "http://10.1.6.68:8080/EnterpriseWebsite/NewsSQL?id=";
+		var url = "http://1.170.146.243:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
 		var id;
 		var newsCount;

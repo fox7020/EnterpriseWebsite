@@ -37,6 +37,7 @@ h1, h2{
 	position: fixed;
 	width: 100%;
 	z-index: 99999;
+	height: 110px;
 }
 .header-backup{
 	width: 20px;
@@ -615,7 +616,7 @@ li a.active{
 /*head loger*/
 #logoPNG{
   		width: 130px;
-  		height: 100px;
+  		height: 100px;  		
   	}
 /*menu table origin css*/
 	table{
@@ -997,12 +998,13 @@ responsive area
 
 /* xs */
 @media (min-width: 480px) and (max-width: 767px) {
-	.header-logo img{
-	  margin-top: 20px;
-	}
 	.navbar-default .navbar-nav>li>a {
-	  font-size: 20px;
+	  font-size: 20px;	 
+	  background-color: #fff;
+	  width:30%;
 	}
+	
+	
 	.carousel-caption {
 	    margin-top: -90px;
 	}
@@ -1134,8 +1136,8 @@ responsive area
   		position: absolute;
   		width: 190px;
   		height: 230px;
-  		textp-align: center;
-  		padding-left:18%;
+  		text-align: center;
+  		padding-left:13%;
   		margin-bottom: 5%;
   	}
   	
@@ -1165,7 +1167,7 @@ responsive area
   		top: 200px;
   		width: 190px;
   		height: 230px;
-  		textp-align: center;
+  		text-align: center;
   		padding-left:35%;
   		margin-top: 150px;
   		margin-bottom: 5%;
@@ -1190,7 +1192,7 @@ responsive area
   		top: 200px;
   		width: 190px;
   		height: 230px;
-  		textp-align: center;
+  		text-align: center;
   		padding-left:35%;
   		margin-top: 150px;
   		margin-bottom: 5%;
@@ -1214,7 +1216,7 @@ responsive area
   		top: 200px;
   		width: 190px;
   		height: 230px;
-  		textp-align: center;
+  		text-align: center;
   		padding-left:35%;
   		margin-top: 150px;
   		margin-bottom: 5%;
@@ -1239,7 +1241,7 @@ responsive area
   		top: 200px;
   		width: 190px;
   		height: 230px;
-  		textp-align: center;
+  		text-align: center;
   		padding-left:35%;
   		margin-top: 150px;
   		margin-bottom: 5%;
@@ -1276,35 +1278,46 @@ responsive area
 
 /* XS Portrait */
 @media (max-width: 479px) {
+	.navbar-default .navbar-nav>li>a { /*toggle adjust*/
+	  font-size: 18px;	 
+	  background-color: black;
+	  width:40%;
+	}	
 	h2 {
   		font-size: 45px !important;
   	}
   	#logoPNG{
-  		width: 100px;
-  		height: 70px;
+  		width: 90px;
+  		height: 60px;
   	}
   	
   	#home{
   		position: relative;
-  		top: 70px;
+  		top: 35px;
+  	}
+  	
+  	#productTitle{
+  		padding-left:30px;
   	}
   	
   	
-  	#menu{
+  	#menu{ /*整個meanu位置*/
   		position: relative;
   		top: 80px;
+  		left: -20px
   	}
 	
 	.top-header img.logo {
 	  margin: -20px 10px;
+	  width: 100px;
 	}
 	.header-logo{
 		margin-top: 20px !important;
 	}
 	.navbar-default .navbar-toggle {
 		 border-color: #fff;
-		 margin-top: -7px;
-		 right: 10%;
+		 margin-top: 0px;
+		 right:5px;
 	}
 	.navbar-default .navbar-nav>li>a {
 	  font-size: 16px;
@@ -1325,7 +1338,7 @@ responsive area
 	.carousel-caption button {
 	  width: 90px;
 	  height: 23px;
-	  font-size: 16px;
+	  font-size: 14px;
 	}
 	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
 	  margin-top: 30px;
@@ -1345,6 +1358,9 @@ responsive area
 	.team h2 {
 	  font-size: 50px;
 	  margin-top: 40px;
+	}
+	.team h3 { /*pic 的title*/
+	  font-size: 20px;
 	}
 	h4 {
 	  font-size: 18px !important;
@@ -1404,10 +1420,12 @@ responsive area
   	/* menu table change*/	
 	#FullScreemMenuTable{
 		display: none;
+		
 	}  	
 	
 	#TwoPartMenuTable_one{
 		display: none;
+		
 	}
 	
 	#TwoPartMenuTable_two{
@@ -1490,45 +1508,40 @@ responsive area
 	/*pic one*/
   	#menuPic1{ /*原味茶*/
   		position: absolute;
-  		width: 190px;
-  		height: 230px;
-  		textp-align: center;  		
-  		margin-bottom: 5%;
+  		width: 160px;
+  		height: 200px;
+  		text-align: center;  
   	}
   	
   	#originTeaPic{
+  		width: 150px;
+  		height: 230px;
   		position: absolute;
   		top: 5px;
   	}
   	
   	#originTeaTitle{
   		position: relative;
-  		top:-250px;
-  		left: 200px;
+  		top:-270px;
+  		left: 170px;
   		width: 0px;  		
   		
   	}
-  	/*
-  	#originTea{
-  		position: relative;
-  		top:-30px;
-  		left: 320px;
-  		width: auto;  		
-  	}
-  	*/
   	/*pic two*/
   	#menuPic2{
   		position: relative;
-  		top: 200px;
-  		width: 190px;
-  		height: 230px;
-  		textp-align: center;
+  		top: 130px;
+  		width: 160px;
+  		height: 200px;
+  		text-align: center;
   		padding-left:110px;
   		margin-top: 150px;
   		margin-bottom: 5%;
   	}
   	
   	#juicePic{
+  		width: 150px;
+  		height: 230px;
   		position: relative;
   		top: -160px;
   		margin-left: -3%;
@@ -1536,31 +1549,32 @@ responsive area
   	
   	#juiceTitle{
   		position: relative;  		
-  		left: 190px;
-  		top: 50px;
+  		left: 160px;
+  		top: 10px;
   		width: 0px; 
   	}
   	
   	/*pic three*/
   	#menuPic3{
   		position: relative;
-  		top: 200px;
-  		width: 190px;
-  		height: 230px;
-  		textp-align: center;
-  		padding-left:110px;
+  		top: 10px;
+  		width: 160px;
+  		height: 200px;
+  		text-align: center;
+  		padding-left:108px;
   		margin-top: 150px;
   		margin-bottom: 5%;
   	}
   	#lattePic{
+  		width: 150px;
+  		height: 230px;
   		position: relative;
   		top: -40px;
-  		margin-left: -13px;
   	}
   	#latteTitle{
   		position: relative;  		
-  		left: 180px;
-  		top: -300px;
+  		left: 160px;
+  		top: -320px;
   		width: 0px; 
   	}
   
@@ -1568,51 +1582,63 @@ responsive area
   	/*pic four*/
   	#menuPic4{
   		position: relative;
-  		top: 200px;
-  		width: 190px;
-  		height: 230px;
-  		textp-align: center;
-  		padding-left: 110px;
+  		top: -20px;
+  		width: 160px;
+  		height: 200px;
+  		text-align: center;
+  		padding-left: 108px;
   		margin-top: 150px;
   		margin-bottom: 5%;
   	}
   	
   	#mochaPic{
+  		width: 150px;
+  		height: 230px;
+  		width: 150px;
+  		height: 230px;
   		position: relative;
-  		top: -280px;
-  		margin-left: -13px;  		
+  		top: -280px;		
   	}
   	
   	#mochaTitle{
   		position: relative;  		
-  		left: 180px;
-  		top: -80px;
+  		left: 160px;
+  		top: -120px;
   		width: 0px; 
   	}
   	
   	/*pic five*/  	
   	#menuPic5{
   		position: relative;
-  		top: 200px;
-  		width: 190px;
-  		height: 230px;
-  		textp-align: center;
-  		padding-left:110px;
+  		top: -100px;
+  		width: 160px;
+  		height: 200px;
+  		text-align: center;
+  		padding-left:108px;
   		margin-top: 150px;
-  		margin-bottom: 5%;
+  		margin-bottom: -230px;
   	}
   	
   	#milkTeaPic{
+  		width: 150px;
+  		height: 230px;
   		position: relative;
-  		top: -200px;
-  		margin-left: -13px;  		
+  		top: -200px; 		
   	}
   	
   	#milkTeaTitle{
   		position: relative;  		
-  		left: 180px;
-  		top: -380px;
+  		left: 160px;
+  		top: -470px;
   		width: 0px; 
+  	}
+  	
+  	/*online order*/
+  	#order{
+  		margin-top: 50px;
+  	}
+  	#onlineHeader{
+  		margin-bottom:-30px;
   	}
 	
 }

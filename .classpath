@@ -9,9 +9,9 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
-	<classpathentry kind="lib" path="D:/Users/user/Documents/GitHub/EnterpriseWebsite/JAR Pool/java-json-schema.jar"/>
-	<classpathentry kind="lib" path="D:/Users/user/Documents/GitHub/EnterpriseWebsite/JAR Pool/sqljdbc4-2.0.jar"/>
-	<classpathentry kind="lib" path="D:/Tomcat/lib/jsp-api.jar"/>
-	<classpathentry kind="lib" path="D:/Tomcat/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/workspace_JavaEE/EnterpriseWebsite/JAR Pool/java-json-schema.jar"/>
+	<classpathentry kind="lib" path="D:/workspace_JavaEE/EnterpriseWebsite/JAR Pool/sqljdbc4-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Tomcat8/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/Tomcat8/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
