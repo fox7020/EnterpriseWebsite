@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
 				   24.155786,120.649554,'07:00~23:00','台中市南屯區大墩路803號','(04)2320-7120','','50lan.com.tw')));
    markers.push(createMarker(
 		   createShop(
-				   24.151038,120.654619,'10:00~21:00','台中市西區公益路353號','(04)2325-5252','','https://www.facebook.com/fulltea2015')));
+				   24.151038,120.654619,'10:00~21:00','台中市西區公益路353號','(04)2325-5252','','https://www.full-tea.com')));
    map.addMarkers(markers);
    //for mobile
   $(document).on("click touchstart", function  (argument) {

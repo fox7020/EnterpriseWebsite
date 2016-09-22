@@ -117,7 +117,7 @@
 	<!-- script tags
 	============================================================= -->
 	<script>
-		var url = "http://1.170.146.243:8080/EnterpriseWebsite/NewsSQL?id=";
+		var url = "http://10.1.6.68:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
 		var context;
 		var picName;
