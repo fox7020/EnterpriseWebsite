@@ -8,6 +8,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <title id="htmlTitle">最新消息-</title>
+<link rel="Shortcut Icon" type="image/x-icon" href="img/icon.ico" />
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/news-menu.css">
@@ -117,7 +118,7 @@
 	<!-- script tags
 	============================================================= -->
 	<script>
-		var url = "http://10.1.6.68:8080/EnterpriseWebsite/NewsSQL?id=";
+		var url = "http://59.127.112.147:8080/EnterpriseWebsite/NewsSQL?id=";
 		var jsonCoordinate = [];
 		var context;
 		var picName;
